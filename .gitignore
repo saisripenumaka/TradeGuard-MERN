@@ -1,0 +1,22 @@
+
+# Dependencies
+node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.vite/
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Exclude the duplicate project copy
+/TradeGuard-MERN/
+server/uploads/
